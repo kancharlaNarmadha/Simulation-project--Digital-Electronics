@@ -49,7 +49,7 @@ An 8-bit parity generator is a digital circuit that generates a parity bit based
 
 
 
-   always @(*) 
+   always @(*)  
         begin
            reg [7:0] xor_result;
   
